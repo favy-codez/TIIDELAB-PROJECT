@@ -78,5 +78,7 @@
 
 /* Address */
 #student-add{
-    
+    padding: 4px 8px;
+    width: 99%;
+    margin: 0 0 14px 0;
 }
