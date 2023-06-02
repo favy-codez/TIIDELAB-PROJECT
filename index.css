@@ -132,7 +132,7 @@ html, body{
     margin: 0 0 14px 0;
 }
 
-#empty-tag{
+.empty-tag{
     padding: 4px 8px;
     width: 425px;
 }
@@ -260,7 +260,7 @@ html, body{
         gap: 3rem;
         width: 260px;
     }
-    #city, #zip-code, #empty-tag{
+    #city, #zip-code, .empty-tag{
         width: 400px;
     }
 }
@@ -322,7 +322,7 @@ html, body{
         width: 100%;
         margin:  10px 0 0px 0;
     }
-    #empty-tag{
+    .empty-tag{
         width: 100%;
         margin:  10px 0 0px 0;
     }
@@ -441,3 +441,18 @@ html, body{
         margin: 27px 0 0 0;
     }
 }
+
+/* preview */
+#preview {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  
