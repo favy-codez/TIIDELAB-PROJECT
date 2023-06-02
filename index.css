@@ -239,16 +239,172 @@ html, body{
     }
     #fname, #mname, #lname{
         width: 180px;
-    }
-    #fname, #mname, #lname{
         gap: 1rem;
     }
+    #dob, #student-id{
+        gap: 3rem;
+        width: 260px;
+    }
+    #city, #zip-code, #empty-tag{
+        width: 400px;
+    }
 }
 
-@media screen and (max-width:794px){
-
+@media screen and (max-width:678px){
+    .container{
+        width: 600px;
+    }
+    .sec-1{
+        flex-direction: column;
+    }
+    #fname, #mname, #lname{
+        width: 100%;
+    }
+    .sec-2{
+        flex-direction: column;
+        gap: 0;
+    }
+    #dob{
+        width: 100%;
+        margin:  20px 0 0px 0;
+    }
+    #student-id{
+        width: 100%;
+        margin:  15px 0 0px 0;
+    }
+    #student-add {
+        margin:15px 0 ;
+    }
+    .sec-3{
+        flex-direction: column;
+        gap: 0;
+    }
+    #city{
+        width: 100%;
+        margin:  10px 0 0px 0;
+    }
+    #state{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .sec-4{
+        flex-direction: column;
+        gap: 0;
+    }
+    #country{
+        width: 100%;
+        margin:  0;
+    }
+    #zip-code{
+        width: 100%;
+        margin:  10px 0 0px 0;
+    }
+    .sec-5{
+        flex-direction: column;
+        gap: 0;
+    }
+    #email{
+        width: 100%;
+        margin:  10px 0 0px 0;
+    }
+    #empty-tag{
+        width: 100%;
+        margin:  10px 0 0px 0;
+    }
+    #comment{
+        margin: 15px 0 10px 0;
+    }
+    img{
+        width: 90px;
+    }
 }
 
-@media screen and (max-width:794px){
+@media screen and (max-width:586px){
+    .container{
+        width: 500px;
+    }
+    .header{
+        gap: 1rem;
+        width: 300px;
+    }
+    .header-text-2{
+        font-size: 16px;
+    }
+    .sec-6{
+        flex-direction: column;
+        margin:   0;
+        gap: 0;
+    }
+    #language{
+        width: 100%;
+        margin:  20px 0 0px 0;
+    }
+    .header{
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        justify-content: baseline;
+        text-align: center;
+        width: 100%;
+    }
+    .header-text-1{
+        width: 100%;
+    }
+    .header-text-2{
+        width: 100%;
+    }
+    #language{
+        margin: 0;
+    }
+    #course{
+        margin: 10px 0 10px 0;
+    }
+    #start{
+        margin: 0 0 15px 0;
+    }
+    #level{
+        margin:  0;
+    }
+    #comment{
+        margin: 12px 0 14px 0 ;
+    }
+    .sec-3{
+        margin: 0;
+    }
+    #file{
+        margin: 0 0 5px 0;
+    }
+    #dob{
+        margin: 0;
+    }
+    #student-add{
+        margin: 0;
+    }
+    .student-info{
+        padding: 15px 0 5px 0;
+    }
+    #state{
+        margin: 0;
+    }
+    .sec-1{
+        margin: 0;
+    }
+    #student-id{
+        margin: 0;
+    }
+}
 
+@media screen and (max-width:482px){
+    .container{
+        width: 400px;
+    }
+    .student-info{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:379px){
+    .container{
+        width: 300px;
+    }
 }
