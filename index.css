@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
 }
 
 .header-text{
@@ -28,11 +28,55 @@
 }
 
 .header-text-1{
-    margin: 0 0 8px 0;
+    margin: 0 0 4px 0;
 }
 
 .header-text-2{
     color: #9b9292;
-    width: 750px;
+    width: 700px;
 }
 
+/* student information section */
+.student-info{
+    font-weight: 200;
+    font-size: 22px;
+    padding:  15px 0 10px 0;
+}
+
+#fname , #mname , #lname {
+    width: 280px;
+    padding: 4px 8px;
+}
+
+::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sec-1{
+    display: flex;
+    gap: 1rem;
+    margin: 0 0 24px 0;
+}
+
+#dob{
+    width: 420px;
+    padding: 4px 8px;
+}
+
+
+#student-id {
+    width: 420px;
+    padding: 4px 8px;
+}
+
+.sec-2{
+    display: flex;
+    gap: 2rem;
+    margin: 0 0 14px 0;
+}
+
+/* Address */
+#student-add{
+    
+}

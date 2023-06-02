@@ -23,15 +23,21 @@
 
     
         <form action="">
-            <label for="student-info"><b>Student Information</b></label>
-            <input type="text" name="First Name" id="fname" placeholder="First Name" required>
-            <input type="text" name="Middle Name" id="mname" placeholder="Middle Name" required>
-            <input type="text" name="Last Name" id="lname" placeholder="Last Name" required>
+            <h2 class="student-info">Student Information</h2>
+            <!-- <label for="student-info"><b></b></label> -->
+            <div class="sec-1">
+                <input type="text" name="First Name" id="fname" placeholder="First Name" required>
+                <input type="text" name="Middle Name" id="mname" placeholder="Middle Name" required>
+                <input type="text" name="Last Name" id="lname" placeholder="Last Name" required>
+            </div>
             
-            <input type="date" name="Date of Birth" id="dob" placeholder="Date of Birth" required>
-            <input type="text" name="Student ID" id="student-id" placeholder="Student ID" required>
+            <div class="sec-2">
+                <input type="date" name="Date of Birth" id="dob" value="Date of Birth" autofocus>
+                <input type="text" name="Student ID" id="student-id" placeholder="Student ID" required>
+            </div>
 
-            <label for="student-address"><b>Address</b></label>
+            
+            <h2 class="student-info">Address</h2>
             <input type="text" name="Student Address" id="student-add" placeholder="Student Address" required>
             <input type="text" name="City" id="city" placeholder="City" required>
             <input type="text" name="State/Province" id="state" placeholder="State/Province" required>
@@ -61,5 +67,7 @@
             </option>
         </form>
     </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>
