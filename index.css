@@ -134,7 +134,7 @@
 
 /* courses */
 #file{
-    margin: 0 0 14px 0;
+    margin: 6px 0 14px 0;
 }
 
 .sec-6{
@@ -150,6 +150,9 @@
 
 #comment{
     padding: 4px 8px;
+    height:100px;
+    width: 100%;
+    margin: 12px 0 0 0;
 }
 
 #btn{
@@ -165,5 +168,5 @@
 }
 
 #btn:hover{
-    
+    background-color: #5e778a;
 }
