@@ -233,8 +233,16 @@ html, body{
     }
 }
 
-@media screen and (max-width:794px){
-
+@media screen and (max-width:690px){
+    .container{
+        width: 650px;
+    }
+    #fname, #mname, #lname{
+        width: 180px;
+    }
+    #fname, #mname, #lname{
+        gap: 1rem;
+    }
 }
 
 @media screen and (max-width:794px){
