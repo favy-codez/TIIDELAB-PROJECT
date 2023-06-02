@@ -186,10 +186,61 @@ html, body{
         width: 600px;
     }
     #dob, #student-id{
-        width: 400px;
+        width: 370px;
         margin: 10px 0;
     }
-    .sec-2{
-        gap: 1rem;
+    #file{
+        margin: 6px 0 27px 0;
     }
+    #student-add{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:906px){
+    .container{
+        width: 800px;
+    }
+    .header-text-2{
+        width: 500px;
+    }
+    .header{
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width:794px){
+    .header{
+        gap: 2rem;
+    }
+    .container{
+        width: 700px;
+    }
+    .header-text-2{
+        width: 400px;
+    }
+    .sec-1{
+        gap: 14px;
+    }
+    #fname, #mname, #lname{
+        width: 200px;
+    }
+    #student-add{
+        margin: 10px 0 15px 0;
+    }
+    .sec-6{
+        margin: 10px 0 15px 0;
+    }
+}
+
+@media screen and (max-width:794px){
+
+}
+
+@media screen and (max-width:794px){
+
+}
+
+@media screen and (max-width:794px){
+
 }
