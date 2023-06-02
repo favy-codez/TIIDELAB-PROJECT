@@ -148,7 +148,22 @@ html, body{
     margin: 0 0 14px 0;
 }
 
+#courses{
+    padding: 4px 8px;
+    width: 420px;
+}
+
+#level{
+    padding: 4px 8px;
+    width: 420px;
+}
+
 #language{
+    padding: 4px 8px;
+    width: 420px;
+}
+
+#start{
     padding: 4px 8px;
     width: 420px;
 }
@@ -401,10 +416,28 @@ html, body{
     .student-info{
         padding: 0;
     }
+    #level{
+        width: 100%;
+    }
+    #courses{
+        width: 100%;
+    }
+    #start{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:379px){
     .container{
         width: 300px;
+    }
+    .header-text-2{
+        font-size: 14px;
+    }
+    #comment{
+        margin: 0;
+    }
+    #btn{
+        margin: 27px 0 0 0;
     }
 }
