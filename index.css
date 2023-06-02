@@ -5,6 +5,11 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+html, body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 .container{
     width: 1000px;
     border: 25px solid #ff8e6a;
@@ -169,4 +174,22 @@
 
 #btn:hover{
     background-color: #5e778a;
+}
+
+/* responsiveness */
+@media screen and (max-width:990px){
+    .container{
+        width: 900px;
+        padding: 1rem 1rem;
+    }
+    .header-text-2{
+        width: 600px;
+    }
+    #dob, #student-id{
+        width: 400px;
+        margin: 10px 0;
+    }
+    .sec-2{
+        gap: 1rem;
+    }
 }
