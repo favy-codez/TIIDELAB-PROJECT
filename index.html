@@ -36,35 +36,68 @@
                 <input type="text" name="Student ID" id="student-id" placeholder="Student ID" required>
             </div>
 
+             <!-- Address  -->
+                <h2 class="student-info">Address</h2>
+                <input type="text" name="Student Address" id="student-add" placeholder="Student Address" required>
+            <div class="sec-3">
+                <input type="text" name="City" id="city" placeholder="City" required>
+                <input type="text" name="State/Province" id="state" placeholder="State/Province" required>
+             </div>
+             <div class="sec-4">
+                <input type="text" name="Country" id="country" placeholder="Country" required>
+                <input type="text" name="Zip Code" id="zip-code" placeholder="Zip Code" required>
+             </div>
             
-            <h2 class="student-info">Address</h2>
-            <input type="text" name="Student Address" id="student-add" placeholder="Student Address" required>
-            <input type="text" name="City" id="city" placeholder="City" required>
-            <input type="text" name="State/Province" id="state" placeholder="State/Province" required>
-            <input type="text" name="Country" id="country" placeholder="Country" required>
-            <input type="text" name="Zip Code" id="zip-code" placeholder="Zip Code" required>
 
-            <label for="student-info"><b>Contact Information</b></label>
-            <input type="email" name="Email" id="email" placeholder="Email" required>
-            <input type="text" name="" id="" required>
+             <!-- email -->
+                <h2 class="student-info">Contact Information</h2>
+            <div class="sec-5">
+                <input type="email" name="Email" id="email" placeholder="Email" required>
+                <input type="text" name="" id="empty-tag" required>
+             </div>
 
-            <label for="Courses"><b>Courses <span>*</span></b></label>
-            <input type="file" name="Add new record" id="" placeholder="Add new record">
-            <option value="">
-                <select name="course" id="select-course">
-                    <option value="dave">Dave</option>
-                    <option value="dave">Dave</option>  
-                    <option value="dave">Dave</option> 
-                    <option value="dave">Dave</option> 
-                    <option value="dave">Dave</option> 
-                </select>
+             <!-- courses -->
+             <h2 class="student-info">Courses</h2>
+
+            <input type="file" name="Add new record" id="file" value="Add new record">
+
+            
+            <div class="sec-6">
                 <select name="language" id="language">
+                    <option value="Courses" disabled selected>Courses</option>
+                    <option value="Frontend development">Frontend development</option>
+                    <option value="Backtend development">Backtend development</option>
+                    <option value="UI/UX" >UI/UX</option>
+                    <option value="Technical Writing" >Technical Writing</option>
+                </select>
+
+                <select name="language" id="language">
+                    <option value="Level" disabled selected>Level</option>
+                    <option value="One">One</option>
+                    <option value="Two">Two</option>
+                    <option value="Three" >Three</option>
+                    <option value="Four" >Four</option>
+                </select>
+
+                <select name="language" id="language">
+                    <option value="Courses" disabled selected>Language</option>
                     <option value="javascript">JavaScript</option>
                     <option value="python">Python</option>
-                    <option value="c++">C++</option>
-                    <option value="java">Java</option>
-                  </select>
-            </option>
+                    <option value="c++" >C++</option>
+                    <option value="java" >Java</option>
+                </select>
+
+                <select name="language" id="language">
+                    <option value="Start Date" disabled selected>Start Date</option>
+                    <option value="January">January</option>
+                    <option value="May">May</option>
+                    <option value="June" >June</option>
+                    <option value="August" >August</option>
+                </select>
+            </div>
+
+            <input type="text" name="" id="comment" placeholder="Comments" required>
+            <input type="submit" id="btn" value="Send Request">
         </form>
     </div>
 
