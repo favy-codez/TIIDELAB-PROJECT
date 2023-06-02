@@ -8,25 +8,26 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">
-            <img src="./TIIDELAB-logo.png" alt="logo">
-        </div>
-        <div class="header-text">
-            <h1>Student Registration Form</h1>
-             <p>
-            Fill out the form to apply for the training courses. You can consider your application accepted after you recieve a confirmation email.
-            </p>
-        </div>
-    </div>
-
     <div class="container">
+        <div class="header">
+            <div class="header-logo">
+                <img src="./TIIDELAB-logo.png" alt="logo">
+            </div>
+            <div class="header-text">
+                <h1>Student Registration Form</h1>
+                <p class="header-text-2">
+                Fill out the form to apply for the training courses. You can consider your application accepted after you recieve a confirmation email.
+                </p>
+            </div>
+        </div>
+
+    
         <form action="">
             <label for="student-info"><b>Student Information</b></label>
             <input type="text" name="First Name" id="fname" placeholder="First Name" required>
             <input type="text" name="Middle Name" id="mname" placeholder="Middle Name" required>
             <input type="text" name="Last Name" id="lname" placeholder="Last Name" required>
-            <br>
+            
             <input type="date" name="Date of Birth" id="dob" placeholder="Date of Birth" required>
             <input type="text" name="Student ID" id="student-id" placeholder="Student ID" required>
 
@@ -41,10 +42,23 @@
             <input type="email" name="Email" id="email" placeholder="Email" required>
             <input type="text" name="" id="" required>
 
-            <label for="Courses"><b>Courses</b></label>
-            <input type="date" name="" id="" required>
-            <input type="date" name="" id="" required>
-            
+            <label for="Courses"><b>Courses <span>*</span></b></label>
+            <input type="file" name="Add new record" id="" placeholder="Add new record">
+            <option value="">
+                <select name="course" id="select-course">
+                    <option value="dave">Dave</option>
+                    <option value="dave">Dave</option>  
+                    <option value="dave">Dave</option> 
+                    <option value="dave">Dave</option> 
+                    <option value="dave">Dave</option> 
+                </select>
+                <select name="language" id="language">
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="c++">C++</option>
+                    <option value="java">Java</option>
+                  </select>
+            </option>
         </form>
     </div>
 </body>
